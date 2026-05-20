@@ -1066,6 +1066,16 @@ Deployment Proposal
 <!-- OPS_FIELDS_END -->
 
 
+---
+
+# OPERATING DOCS
+
+Recruiting Guide : [docs/recruiting.md](docs/recruiting.md)  
+Weekly Review : [docs/weekly-review.md](docs/weekly-review.md)  
+Skill Roadmap : [docs/skill-roadmap.md](docs/skill-roadmap.md)  
+Evidence Board : [docs/evidence-board.md](docs/evidence-board.md)  
+
+
 # MY ROLE
 
 **System Builder**  
