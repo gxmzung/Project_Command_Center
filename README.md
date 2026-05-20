@@ -56,6 +56,43 @@ Kotlin Compose
 
 ---
 
+### Team Status
+
+Project Lead : @gxmzung / System-Lead  
+현재 인원 : 1명  
+모집 필요 : 3~4명  
+우선 모집 : Backend-01, App-01, Data-01, Design-01  
+
+### Next Actions
+
+1. 관리자 페이지 기능 정리
+2. Android 앱 연동 안정화
+3. 학생식당 운영 데이터 시각화
+4. 발표·시연용 영상 캡처
+5. 학교 적용 가능성 문서화
+
+### Target Date
+
+1차 고도화 : 2026-06  
+시연 자료 정리 : 2026-06  
+학교 적용 제안서 초안 : 2026-07  
+
+### Evidence
+
+Demo : TBD  
+Screenshots : TBD  
+Docs : TBD  
+Presentation : TBD  
+Award : 교내 아이디어 경진대회 수상  
+
+### Risk / Blocker
+
+기술 리스크 : 실제 학교 데이터 연동 부족  
+운영 리스크 : 학교·식당 운영 주체 협의 필요  
+팀 리스크 : 디자인·데이터 담당자 부족  
+현실 리스크 : 기존 업체 앱과의 차별화 설명 필요
+
+
 ## 2. SkyEdge
 
 **분야:** 드론 / ROS2 / PX4 / 관제 시스템  
@@ -110,6 +147,42 @@ AI Vision 1명
 
 ---
 
+### Team Status
+
+Project Lead : @gxmzung / Mission-Lead  
+현재 인원 : 팀 활동 기반  
+모집 필요 : 3~5명  
+우선 모집 : ROS2-01, Telemetry-01, Vision-01, Embedded-01, Airframe-01  
+
+### Next Actions
+
+1. PX4 SITL 실행 로그 정리
+2. ROS2 노드 구조 문서화
+3. QGroundControl 화면 캡처
+4. Mission Log 저장 구조 정리
+5. 팀원별 SW/HW 역할 분리
+
+### Target Date
+
+컴퓨팅사고 발표 정리 : 2026-05  
+SITL 테스트 로그 정리 : 2026-06  
+기초 Mission Demo : 2026-07  
+
+### Evidence
+
+Repo : TBD  
+SITL Logs : TBD  
+QGroundControl Screenshots : TBD  
+Architecture Docs : TBD  
+
+### Risk / Blocker
+
+기술 리스크 : ROS2·PX4 학습 난이도 높음  
+하드웨어 리스크 : 실제 기체 테스트 환경 부족  
+팀 리스크 : SW/HW 역할 경계 불명확 가능성  
+운영 리스크 : 문서화 없이 실험하면 재현성 떨어짐
+
+
 ## 3. UAM Radio Environment
 
 **분야:** UAM / 전파환경 / 통신 위험 분석  
@@ -157,6 +230,42 @@ Monte Carlo
 시각화 1명  
 
 ---
+
+### Team Status
+
+Project Lead : @gxmzung / Radio-Ops-Lead  
+현재 인원 : 1명  
+모집 필요 : 3~4명  
+우선 모집 : RF-01, Simulation-01, Stats-01, Dashboard-01  
+
+### Next Actions
+
+1. UAM 통신 장애 시나리오 정리
+2. Monte Carlo 샘플 코드 정리
+3. 전파 간섭 위험도 지표 설계
+4. 위험도 히트맵 시각화
+5. 전파환경 분야 문서화
+
+### Target Date
+
+기초 시뮬레이션 : 2026-05  
+웹 시각화 정리 : 2026-06  
+기술문서 v1 : 2026-06  
+
+### Evidence
+
+Simulation Code : TBD  
+Docs : TBD  
+Dashboard : TBD  
+Figures : TBD  
+
+### Risk / Blocker
+
+기술 리스크 : 실제 전파환경 데이터 부족  
+이론 리스크 : 통신·전파 수식 이해 필요  
+검증 리스크 : 시뮬레이션 결과의 현실성 설명 필요  
+팀 리스크 : 정보통신/RF 담당자 필요
+
 
 ## 4. ADD Defense
 
@@ -209,6 +318,42 @@ AI 탐지 1명
 실험 설계 1명  
 
 ---
+
+### Team Status
+
+Project Lead : @gxmzung / Defense-System-Lead  
+현재 인원 : 1명  
+모집 필요 : 4~5명  
+우선 모집 : Detection-01, IR-Sensor-01, Experiment-01, Defense-Docs-01  
+
+### Next Actions
+
+1. 공모전 포스터 요구사항 분석
+2. RGB·IR 탐지 평가 구조 정리
+3. 위장 효과 평가 지표 설계
+4. 드론 기반 관측 시나리오 구상
+5. 관련 국책연구과제 제목 조사
+
+### Target Date
+
+주제 분석 : 2026-05  
+팀 구성 및 역할 분담 : 2026-06  
+기초 제안서 초안 : 2026-06  
+
+### Evidence
+
+Competition Poster : TBD  
+Research Notes : TBD  
+System Diagram : TBD  
+Prototype Plan : TBD  
+
+### Risk / Blocker
+
+기술 리스크 : IR/열화상 장비 접근성 부족  
+실험 리스크 : 실제 위장 소재 검증 어려움  
+범위 리스크 : 소재 개발로 가면 학부생 수준 초과  
+전략 리스크 : 평가 시스템 중심으로 범위 제한 필요
+
 
 ## 5. BioDockLab
 
@@ -273,6 +418,43 @@ UX/3D 1명
 
 ---
 
+### Team Status
+
+Project Lead : @gxmzung / Bio-Platform-Lead  
+현재 인원 : 협업 후보 있음  
+모집 필요 : 5~6명  
+우선 모집 : BioData-01, Docking-01, AI-01, Clinical-01, Business-01, UX3D-01  
+
+### Next Actions
+
+1. 역할 기반 화면 구조 정리
+2. 단백질·화합물 샘플 데이터 선정
+3. 가상 도킹 workflow 문서화
+4. 의료 데이터 권한 구조 설계
+5. 생명공학·AI·간호·경영 협업자 역할 정리
+
+### Target Date
+
+화면 프로토타입 : 2026-05  
+샘플 데이터 구조 : 2026-06  
+협업자 온보딩 문서 : 2026-06  
+도킹 workflow v1 : 2026-07  
+
+### Evidence
+
+Prototype Screens : TBD  
+Docs : TBD  
+Sample Data : TBD  
+Role Model : TBD  
+
+### Risk / Blocker
+
+기술 리스크 : 실제 도킹 계산 파이프라인 난이도 높음  
+도메인 리스크 : 바이오·의료 지식 부족 가능성  
+법적 리스크 : 의료진단/처방 시스템으로 오해되면 안 됨  
+팀 리스크 : 생명공학·화학공학 담당자 필요
+
+
 ## 6. K-Mobility
 
 **분야:** SDV / 전장부품 / AI 품질검사  
@@ -326,6 +508,43 @@ AI 모델 1명
 
 ---
 
+### Team Status
+
+Project Lead : @gxmzung / Mobility-AI-Lead  
+현재 인원 : 1명  
+모집 필요 : 3~4명  
+우선 모집 : AI-Defect-01, Quality-01, Electronics-01, Dashboard-01  
+
+### Next Actions
+
+1. 1차 연구계획서 보완
+2. PCB/전장부품 불량 데이터셋 조사
+3. 이미지+전기신호+로그 멀티모달 구조 설계
+4. 품질 등급 분류 기준 정리
+5. Step 2 논문/보고서 구조 준비
+
+### Target Date
+
+1차 접수 : 완료  
+데이터셋 조사 : 2026-06  
+프로토타입 구조 : 2026-06  
+논문형 보고서 초안 : 2026-07  
+
+### Evidence
+
+Submitted Plan : TBD  
+Dataset Notes : TBD  
+Architecture Diagram : TBD  
+Prototype : TBD  
+
+### Risk / Blocker
+
+기술 리스크 : 실제 제조공정 데이터 접근 어려움  
+검증 리스크 : 공개 데이터와 synthetic log의 한계 설명 필요  
+전문성 리스크 : 전장부품·품질공정 이해 필요  
+일정 리스크 : 공모전 일정에 맞춘 문서화 필요
+
+
 ## 7. Sejong Idea Competition
 
 **분야:** 세종 지역 / 공공서비스 / 기술 사업화  
@@ -377,6 +596,42 @@ UI/UX
 
 ---
 
+### Team Status
+
+Project Lead : @gxmzung / Sejong-Service-Lead  
+현재 인원 : 1명  
+모집 필요 : 3~4명  
+우선 모집 : Planner-01, Prototype-01, Business-01, Design-01  
+
+### Next Actions
+
+1. 세종 지역 문제 후보 조사
+2. CityBrain/Campus OS 확장 가능성 검토
+3. 공공기관·대학·기업 연결 서비스 구조 설계
+4. 발표용 문제정의 작성
+5. MVP 화면 구상
+
+### Target Date
+
+아이디어 후보 정리 : 2026-05  
+팀 구성 : 2026-06  
+제안서 초안 : 2026-06  
+
+### Evidence
+
+Problem Notes : TBD  
+Service Sketch : TBD  
+Pitch Deck : TBD  
+Prototype : TBD  
+
+### Risk / Blocker
+
+기획 리스크 : 너무 일반적인 앱 아이디어로 보일 위험  
+현실 리스크 : 세종 지역 특화성이 약하면 경쟁력 낮음  
+팀 리스크 : 경영·디자인 인원 필요  
+검증 리스크 : 실제 사용자 인터뷰 필요
+
+
 ## 8. Campus OS / 배재Pick
 
 **분야:** 교내 통합 앱 / Campus OS  
@@ -427,6 +682,42 @@ UX/디자인 1명
 운영 기획 1명  
 
 ---
+
+### Team Status
+
+Project Lead : @gxmzung / Campus-OS-Lead  
+현재 인원 : 1명  
+모집 필요 : 4~5명  
+우선 모집 : Platform-01, Backend-01, UX-01, CampusData-01, Ops-01  
+
+### Next Actions
+
+1. 교내 통합 앱 기능 목록 정리
+2. CityBrain과 연결 가능한 기능 분리
+3. 공지·식당·시설·지도·민원 흐름 정리
+4. 학생용 UX 구조 설계
+5. 학교 운영 부서별 데이터 흐름 분석
+
+### Target Date
+
+기능 목록 v1 : 2026-06  
+서비스 구조도 : 2026-06  
+프로토타입 화면 : 2026-07  
+
+### Evidence
+
+Feature List : TBD  
+Wireframe : TBD  
+Service Diagram : TBD  
+Docs : TBD  
+
+### Risk / Blocker
+
+범위 리스크 : 기능이 너무 많아지면 MVP가 흐려짐  
+운영 리스크 : 학교 시스템 연동 권한 필요  
+기술 리스크 : 인증·개인정보·알림 구조 설계 필요  
+팀 리스크 : UX와 운영기획 담당자 필요
+
 
 # MY ROLE
 
