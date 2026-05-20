@@ -17,5 +17,5 @@ jobs:
         with:
           # TODO: 아래 URL을 실제 GitHub Project URL로 바꿔라.
           # 예: https://github.com/users/gxmzung/projects/1
-          project-url: https://github.com/users/gxmzung/projects/PROJECT_NUMBER
+          project-url: https://github.com/users/gxmzung/projects/5
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
