@@ -1,0 +1,21 @@
+name: Add Issues and PRs to Project Command Center
+
+on:
+  issues:
+    types: [opened, reopened, labeled, transferred]
+  pull_request:
+    types: [opened, reopened, labeled]
+
+jobs:
+  add-to-project:
+    name: Add to GitHub Project
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Add issue or PR to project
+        uses: actions/add-to-project@main
+        with:
+          # TODO: 아래 URL을 실제 GitHub Project URL로 바꿔라.
+          # 예: https://github.com/users/gxmzung/projects/1
+          project-url: https://github.com/users/gxmzung/projects/5
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}

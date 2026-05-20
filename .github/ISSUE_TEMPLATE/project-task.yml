@@ -1,0 +1,131 @@
+name: Project Task
+description: Project Command Center용 표준 작업 이슈
+title: "[TASK] "
+labels: ["task", "needs-triage"]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Project_Command_Center
+        - CityBrain
+        - SkyEdge
+        - BioDockLab
+        - UAM Radio Ops
+        - FieldOps
+        - Satellite GCS
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: sub_project
+    attributes:
+      label: Sub Project
+      placeholder: "예: Backend API, Android App, Docs, Dashboard"
+    validations:
+      required: true
+
+  - type: input
+    id: department
+    attributes:
+      label: Department / Major
+      placeholder: "예: 컴퓨터공학, AI, 항공드론, 생명공학"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - PM
+        - Backend
+        - Frontend
+        - Mobile
+        - Data
+        - DevOps / GitHub Ops
+        - Hardware / Embedded
+        - Research / Documentation
+        - Design / UX
+        - Business / Operations
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: skill_track
+    attributes:
+      label: Skill Track
+      placeholder: "예: FastAPI, Kotlin, ROS2, PX4, GitHub Actions"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical
+        - P1 - High
+        - P2 - Normal
+        - P3 - Low
+    validations:
+      required: true
+
+  - type: input
+    id: target_date
+    attributes:
+      label: Target Date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+
+  - type: input
+    id: progress
+    attributes:
+      label: Progress %
+      placeholder: "0 / 25 / 50 / 75 / 100"
+    validations:
+      required: false
+
+  - type: textarea
+    id: task
+    attributes:
+      label: Task Description
+      description: 이 작업에서 실제로 끝내야 하는 것을 적어라.
+      placeholder: |
+        - 무엇을 만들 것인가?
+        - 왜 필요한가?
+        - 완료 기준은 무엇인가?
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Evidence / Output
+      placeholder: |
+        - 관련 파일:
+        - 캡처:
+        - 로그:
+        - 문서:
+    validations:
+      required: false
+
+  - type: textarea
+    id: blocker
+    attributes:
+      label: Blocker
+      placeholder: "막힌 점이 있으면 적기"
+    validations:
+      required: false
+
+  - type: textarea
+    id: next_action
+    attributes:
+      label: Next Action
+      placeholder: "다음에 바로 할 행동 1~3개"
+    validations:
+      required: true

@@ -1121,3 +1121,45 @@ Build real systems.
 Not shallow projects.  
 Do not only start projects.  
 Finish, document, prove.
+
+---
+
+## Project Command Center Operating System
+
+이 레포는 단순 코드 저장소가 아니라 여러 프로젝트의 역할, 일정, 진행률, 산출물, 리스크를 관리하는 지휘센터다.
+
+### Core Management Fields
+
+- Project
+- Sub Project
+- Department / Major
+- Role
+- Skill Track
+- Assignee
+- Status
+- Priority
+- Start Date
+- Target Date
+- Progress %
+- Related Repository
+- Related Issue
+- Evidence / Output
+- Blocker
+- Next Action
+
+### Operating Docs
+
+- `docs/operations/reference-repo-absorption.md`
+- `docs/operations/project-field-schema.md`
+- `docs/operations/role-skill-tracks.md`
+- `docs/operations/master-schedule-template.md`
+
+### GitHub Automation
+
+- `.github/ISSUE_TEMPLATE/project-task.yml`
+- `.github/workflows/add-to-project.yml`
+- `.github/workflows/monthly-issue-metrics.yml`
+
+### Rule
+
+Progress %는 감으로 올리지 않는다. 산출물이 있어야 올라간다.
