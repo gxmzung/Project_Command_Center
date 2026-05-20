@@ -92,6 +92,50 @@ Award : 교내 아이디어 경진대회 수상
 팀 리스크 : 디자인·데이터 담당자 부족  
 현실 리스크 : 기존 업체 앱과의 차별화 설명 필요
 
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+HIGH
+
+### This Week Sprint
+
+1. 관리자 페이지 기능 목록 정리
+2. Android 앱 API 연동 확인
+3. 학생식당 데이터 시각화 항목 정리
+4. 시연용 화면 캡처 정리
+
+### Required Skill Level
+
+Entry : GitHub 사용, 화면 테스트, 설문 정리  
+Junior : FastAPI, DB, Kotlin, API 연동  
+Advanced : 운영 데이터 분석, 서비스 아키텍처, 배포 구조  
+
+### Onboarding Mission
+
+1. CityBrain README 읽기
+2. 학생식당 문제 정의 1페이지 요약
+3. API 하나 실행해보기
+4. 화면 또는 데이터 항목 하나 개선하기
+5. 작업 로그 작성하기
+
+### Final Output
+
+Prototype  
+Admin Dashboard  
+Student App Screen  
+Demo Video  
+Technical Docs  
+School Deployment Proposal  
+
+### Decision Log
+
+2026-05 : 학생식당 데이터 기반 스마트캠퍼스 플랫폼 방향 유지  
+2026-05 : 단순 아이디어가 아니라 실제 운영 가능한 구조 중심으로 정리  
+2026-06 : 관리자 페이지와 Android 연동을 우선 고도화 예정  
+
+<!-- OPS_FIELDS_END -->
+
 
 ## 2. SkyEdge
 
@@ -182,6 +226,50 @@ Architecture Docs : TBD
 팀 리스크 : SW/HW 역할 경계 불명확 가능성  
 운영 리스크 : 문서화 없이 실험하면 재현성 떨어짐
 
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+HIGH
+
+### This Week Sprint
+
+1. PX4 SITL 실행 기록 정리
+2. ROS2-PX4 연결 구조 문서화
+3. QGroundControl 캡처 수집
+4. SW/HW 역할 분리표 작성
+
+### Required Skill Level
+
+Entry : Linux, GitHub, 터미널 명령어  
+Junior : ROS2 노드, PX4 SITL, QGroundControl  
+Advanced : MAVLink, Offboard Control, Telemetry, Mission Logic  
+
+### Onboarding Mission
+
+1. ROS2/PX4 개념 1페이지 요약
+2. PX4 SITL 실행 화면 캡처
+3. QGroundControl 연결 확인
+4. Mission Log 샘플 정리
+5. 본인 담당 파트 설명 문서 작성
+
+### Final Output
+
+ROS2/PX4 Demo  
+Mission Log  
+QGroundControl Evidence  
+Architecture Docs  
+Team Role Manual  
+Presentation Material  
+
+### Decision Log
+
+2026-05 : SkyEdge 활동을 드론·관제·Mission Software 방향으로 정리  
+2026-05 : 수업 발표와 동아리 활동을 연결  
+2026-06 : SITL 로그와 시뮬레이션 증거 확보 예정  
+
+<!-- OPS_FIELDS_END -->
+
 
 ## 3. UAM Radio Environment
 
@@ -265,6 +353,49 @@ Figures : TBD
 이론 리스크 : 통신·전파 수식 이해 필요  
 검증 리스크 : 시뮬레이션 결과의 현실성 설명 필요  
 팀 리스크 : 정보통신/RF 담당자 필요
+
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+HIGH
+
+### This Week Sprint
+
+1. UAM 통신 장애 시나리오 정리
+2. Monte Carlo 시뮬레이션 코드 정리
+3. 위험도 히트맵 화면 개선
+4. 전파환경 기술문서 작성
+
+### Required Skill Level
+
+Entry : Python 기초, 자료조사, 그래프 해석  
+Junior : Monte Carlo, 데이터 시각화, 통신 기초  
+Advanced : 전파 모델링, 경로손실, RF 환경 분석  
+
+### Onboarding Mission
+
+1. UAM 전파환경 문제 1페이지 요약
+2. Monte Carlo 샘플 코드 실행
+3. 위험도 그래프 하나 생성
+4. 전파 간섭 사례 조사
+5. 분석 결과를 문서로 정리
+
+### Final Output
+
+Simulation Code  
+Risk Heatmap  
+Technical Report  
+Web Dashboard  
+UAM Radio Risk Scenario  
+
+### Decision Log
+
+2026-05 : UAM 전파환경을 통신 위험 분석 프로젝트로 정리  
+2026-05 : 대학원 초입 수준까지 확장하는 방향 설정  
+2026-06 : 시뮬레이션과 브라우저 시각화 고도화 예정  
+
+<!-- OPS_FIELDS_END -->
 
 
 ## 4. ADD Defense
@@ -353,6 +484,49 @@ Prototype Plan : TBD
 실험 리스크 : 실제 위장 소재 검증 어려움  
 범위 리스크 : 소재 개발로 가면 학부생 수준 초과  
 전략 리스크 : 평가 시스템 중심으로 범위 제한 필요
+
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+MEDIUM
+
+### This Week Sprint
+
+1. 방산 공모전 요구사항 분석
+2. RGB·IR 탐지 평가 구조 정리
+3. 관련 국책연구과제 제목 조사
+4. 드론 기반 관측 시나리오 작성
+
+### Required Skill Level
+
+Entry : 국방 기술 자료조사, OpenCV 기초  
+Junior : YOLO, RGB/IR 영상 분석, 평가 지표  
+Advanced : 센서 융합, 탐지율 분석, 실험 설계  
+
+### Onboarding Mission
+
+1. 포스터 요구사항 요약
+2. RGB/IR 탐지 개념 정리
+3. 위장 효과 평가 지표 3개 제안
+4. 관련 논문/국책과제 제목 조사
+5. 시스템 다이어그램 초안 작성
+
+### Final Output
+
+Defense Proposal  
+System Diagram  
+RGB/IR Detection Plan  
+Evaluation Metric Document  
+Experiment Scenario  
+
+### Decision Log
+
+2026-05 : 소재 개발이 아니라 위장 성능 평가 시스템으로 범위 제한  
+2026-05 : 드론·센서·AI·관제 구조와 연결하기로 결정  
+2026-06 : 팀 구성과 기초 제안서 작성 예정  
+
+<!-- OPS_FIELDS_END -->
 
 
 ## 5. BioDockLab
@@ -454,6 +628,50 @@ Role Model : TBD
 법적 리스크 : 의료진단/처방 시스템으로 오해되면 안 됨  
 팀 리스크 : 생명공학·화학공학 담당자 필요
 
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+MEDIUM
+
+### This Week Sprint
+
+1. 역할 기반 화면 구조 정리
+2. 단백질·화합물 샘플 데이터 선정
+3. 의료 workflow 역할표 작성
+4. 협업자 온보딩 문서 작성
+
+### Required Skill Level
+
+Entry : 바이오 기초 조사, 화면 리뷰, 문서화  
+Junior : React/FastAPI, PDB 데이터, 권한 구조  
+Advanced : Docking Workflow, AI 분석, 의료 데이터 플랫폼 설계  
+
+### Onboarding Mission
+
+1. BioDockLab 목표 1페이지 요약
+2. 단백질/화합물 샘플 데이터 하나 조사
+3. 본인 전공 관점에서 역할 정의
+4. 화면 개선 아이디어 작성
+5. 데이터 흐름도 초안 작성
+
+### Final Output
+
+Role-Based Prototype  
+Docking Workflow Docs  
+Sample Data  
+Medical Data Access Model  
+3D/UX Visualization  
+Research Presentation  
+
+### Decision Log
+
+2026-05 : 진단/처방 시스템이 아니라 연구·교육용 플랫폼으로 제한  
+2026-05 : 역할 기반 의료·바이오 데이터 접근 구조로 방향 설정  
+2026-06 : 생명공학·AI·간호·경영 협업 구조 정리 예정  
+
+<!-- OPS_FIELDS_END -->
+
 
 ## 6. K-Mobility
 
@@ -544,6 +762,49 @@ Prototype : TBD
 전문성 리스크 : 전장부품·품질공정 이해 필요  
 일정 리스크 : 공모전 일정에 맞춘 문서화 필요
 
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+MEDIUM
+
+### This Week Sprint
+
+1. 제출한 연구계획서 정리
+2. PCB/전장부품 불량 데이터셋 조사
+3. 이미지+전기신호+로그 구조 설계
+4. 품질 등급 분류 기준 정리
+
+### Required Skill Level
+
+Entry : 제조공정 자료조사, 데이터셋 조사  
+Junior : Python, ML 기초, 품질관리 기초  
+Advanced : 멀티모달 AI, 불량 탐지, SDV 시스템 분석  
+
+### Onboarding Mission
+
+1. SDV 전장부품 개념 정리
+2. 공개 불량 데이터셋 1개 조사
+3. 품질검사 공정 흐름도 작성
+4. AI 분류 기준 초안 작성
+5. 연구계획서 보완 의견 작성
+
+### Final Output
+
+Research Plan  
+Dataset Notes  
+AI Quality Inspection Architecture  
+Prototype Dashboard  
+Technical Report  
+
+### Decision Log
+
+2026-05 : K-Mobility 연구계획 1차 접수 완료  
+2026-05 : SDV 전장부품 검사공정과 멀티모달 AI를 연결  
+2026-06 : 데이터셋 조사와 Step 2 보고서 구조 준비 예정  
+
+<!-- OPS_FIELDS_END -->
+
 
 ## 7. Sejong Idea Competition
 
@@ -631,6 +892,49 @@ Prototype : TBD
 팀 리스크 : 경영·디자인 인원 필요  
 검증 리스크 : 실제 사용자 인터뷰 필요
 
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+LOW / MEDIUM
+
+### This Week Sprint
+
+1. 세종 지역 문제 후보 조사
+2. 공공기관·대학·기업 연결 아이디어 정리
+3. CityBrain 확장 가능성 검토
+4. 발표용 문제 정의 작성
+
+### Required Skill Level
+
+Entry : 지역 문제 조사, 인터뷰, 자료정리  
+Junior : MVP 기획, 화면 설계, 공공데이터 활용  
+Advanced : 사업모델, 공공서비스 구조, 기술 사업화  
+
+### Onboarding Mission
+
+1. 세종 지역 문제 3개 조사
+2. 사용자 대상 3명 인터뷰
+3. 서비스 아이디어 1개 제안
+4. 화면 스케치 작성
+5. 발표용 한 페이지 요약 작성
+
+### Final Output
+
+Problem Definition  
+Service Proposal  
+Prototype Screen  
+Pitch Deck  
+Business Model  
+
+### Decision Log
+
+2026-05 : 세종 지역 제1회 아이디어 경진대회 활동 추가  
+2026-05 : 단순 앱보다 공공·대학·기업 연결형 서비스로 방향 설정  
+2026-06 : 팀 구성과 주제 확정 예정  
+
+<!-- OPS_FIELDS_END -->
+
 
 ## 8. Campus OS / 배재Pick
 
@@ -717,6 +1021,49 @@ Docs : TBD
 운영 리스크 : 학교 시스템 연동 권한 필요  
 기술 리스크 : 인증·개인정보·알림 구조 설계 필요  
 팀 리스크 : UX와 운영기획 담당자 필요
+
+<!-- OPS_FIELDS_START -->
+
+### Priority
+
+MEDIUM
+
+### This Week Sprint
+
+1. 교내 통합 앱 기능 목록 작성
+2. CityBrain과 겹치는 기능 분리
+3. 공지·식당·시설·지도 흐름 정리
+4. 학생 UX 시나리오 작성
+
+### Required Skill Level
+
+Entry : 교내 불편 조사, 화면 리뷰, 문서화  
+Junior : API 설계, DB 설계, 앱/웹 개발  
+Advanced : Campus Platform Architecture, 인증, 개인정보, 운영 시스템 설계  
+
+### Onboarding Mission
+
+1. 학교 앱 불편사항 5개 조사
+2. 기능 우선순위 정리
+3. 학생용 화면 스케치 작성
+4. 데이터 흐름도 작성
+5. MVP 범위 제안
+
+### Final Output
+
+Feature List  
+Campus OS Architecture  
+Prototype Screen  
+Operation Scenario  
+Deployment Proposal  
+
+### Decision Log
+
+2026-05 : 배재대 정식 앱 형태의 Campus OS 방향 유지  
+2026-05 : CityBrain을 기반으로 확장 가능한 구조로 정리  
+2026-06 : 기능 범위와 MVP 우선순위 확정 예정  
+
+<!-- OPS_FIELDS_END -->
 
 
 # MY ROLE
