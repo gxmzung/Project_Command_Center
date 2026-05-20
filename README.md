@@ -1,20 +1,212 @@
-# Project Command Center
+# PROJECT COMMAND CENTER
 
-## High Priority
-CityBrain : 스마트캠퍼스·학생식당 데이터 플랫폼  
-SkyEdge : ROS2·PX4 기반 드론/관제 시스템  
-UAM Radio Environment : 도심항공교통 전파환경 분석  
+> Mission Software / Systems Engineering / UAV / Smart Infrastructure
 
-## Active Competitions
-ADD Defense : RGB·IR 탐지 및 위장 평가 시스템  
-K-Mobility : SDV 전장부품 AI 품질검사  
-Sejong Idea Competition : 세종 지역 아이디어 경진대회  
+---
 
-## Research / Expansion
-BioDockLab : 바이오 AI·가상 도킹 웹 플랫폼  
-Campus OS / 배재Pick : 교내 통합 앱 구상  
+## ACTIVE PROJECT STATUS
 
-## Direction
-Mission Software Engineer  
-Systems Engineer  
-Technical PM형 개발자
+### 1. CityBrain
+
+스마트캠퍼스·학생식당 데이터 플랫폼
+
+**진행률:** ████████░░ 80%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : 백엔드·앱·DB  
+정보통신공학과 : 서버·네트워크  
+경영학과 : 운영·비즈니스 모델·설문 분석  
+산업경영공학과 : 데이터·운영 최적화  
+디자인/미디어 계열 : UI·UX·브랜딩  
+
+**현재 상태**
+
+Backend API 구축  
+Android 연동 진행  
+관리자 페이지 개발  
+데이터 시각화 및 운영 구조 정리  
+
+---
+
+### 2. SkyEdge
+
+ROS2·PX4 기반 드론/관제 시스템
+
+**진행률:** ██████░░░░ 60%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : ROS2·PX4·관제 SW  
+전자공학과 : 센서·PCB·통신  
+정보통신공학과 : RF·Telemetry·네트워크  
+기계공학과 : 기체·구조·하드웨어  
+AI/소프트웨어학과 : 비전·자율비행  
+
+**현재 상태**
+
+PX4 SITL 환경 구축  
+ROS2 연동 구조 정리  
+Telemetry 및 Mission Log 실험  
+
+---
+
+### 3. UAM Radio Environment
+
+도심항공교통 통신·전파 위험 분석
+
+**진행률:** █████░░░░░ 45%
+
+**팀 구성 / 역할**
+
+정보통신공학과 : 전파·안테나·통신  
+전자공학과 : RF 하드웨어  
+컴퓨터공학과 : 시뮬레이션·데이터 처리  
+수학/통계 계열 : Monte Carlo·분석 모델  
+산업공학과 : 운항 리스크·운용 분석  
+
+**현재 상태**
+
+전파환경 분석 방향 설정  
+Monte Carlo 시뮬레이션 구성  
+위험도 시각화 구조 설계  
+
+---
+
+### 4. ADD Defense
+
+지능형 가시광·적외선 능동 위장 기술 기반 탐지·평가 시스템
+
+**진행률:** ████░░░░░░ 40%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : 관제·AI·시스템 통합  
+전자공학과 : 센서·IR·하드웨어  
+정보통신공학과 : 전파·통신  
+기계공학과 : 플랫폼 구조·운용  
+산업공학과 : 실험 설계·운용 분석  
+AI학과 : 객체 탐지·분석 모델  
+
+**현재 상태**
+
+RGB·IR 탐지 방향 설정  
+위장 효과 평가 시스템 구상  
+드론 기반 관측·평가 구조 검토  
+
+---
+
+### 5. BioDockLab
+
+바이오 AI·가상 도킹 웹 플랫폼
+
+**진행률:** █████░░░░░ 50%
+
+**팀 구성 / 역할**
+
+생명공학과 : 단백질·바이오 데이터  
+화학공학과 : 화합물·도킹 개념  
+컴퓨터공학과 : 웹·AI·백엔드  
+AI학과 : 모델·데이터 분석  
+게임공학과/디자인 : 3D 시각화·UX  
+경영/회계 계열 : 병원 운영·서비스 구조  
+간호학과 : 의료 workflow·현장 관점  
+의료 데이터 기반 개발 학생 : 데이터 구조·EMR 흐름  
+
+**현재 상태**
+
+역할 기반 UI 설계  
+단백질-화합물 가상 도킹 구조 정리  
+의료 데이터 플랫폼 방향 구상  
+
+---
+
+### 6. K-Mobility
+
+SDV 전장부품 AI 품질검사 연구계획
+
+**진행률:** ██████░░░░ 60%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : AI·백엔드·데이터 처리  
+전자공학과 : 센서·전장부품 이해  
+AI학과 : 불량 탐지 모델  
+산업공학과 : 공정 분석·품질 관리  
+자동차/모빌리티 계열 : SDV·차량 시스템 이해  
+통계 계열 : 품질 데이터 분석  
+
+**현재 상태**
+
+연구계획 1차 접수  
+전장부품 검사공정 구조 정리  
+멀티모달 AI 품질검사 방향 설정  
+
+---
+
+### 7. Sejong Idea Competition
+
+세종 지역 기반 아이디어·기술 사업화 경진대회
+
+**진행률:** ███░░░░░░░ 30%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : 서비스 구현·프로토타입 개발  
+경영학과 : 사업모델·시장성·수익구조  
+산업공학과 : 운영 프로세스·실현 가능성 분석  
+디자인/미디어 계열 : 발표자료·브랜딩·UI/UX  
+정보통신공학과 : 서버·네트워크·기술 인프라  
+
+**현재 상태**
+
+세종 지역 공공·대학·기업 연계 방향 검토  
+CityBrain/Campus OS 확장 가능성 분석  
+스마트시티형 서비스 구조 구상  
+
+---
+
+### 8. Campus OS / 배재Pick
+
+배재대 정식 앱 형태의 교내 통합 플랫폼
+
+**진행률:** ████░░░░░░ 40%
+
+**팀 구성 / 역할**
+
+컴퓨터공학과 : 통합 플랫폼 개발  
+정보통신공학과 : 서버·네트워크  
+경영학과 : 학교 운영 서비스 분석  
+산업공학과 : 시스템 운영 최적화  
+디자인/미디어 계열 : UX·브랜딩·학생 경험  
+
+**현재 상태**
+
+공지·식당·시설·지도·학생 편의 기능 통합 구상  
+CityBrain 기반 확장 구조 설계  
+교내 서비스 OS 방향 정리  
+
+---
+
+## CURRENT ROLE
+
+System Builder  
+Mission Software Direction  
+Systems Engineer Track  
+Technical PM형 개발자  
+
+---
+
+## LONG TERM TARGET
+
+Defense / UAV / UAM  
+Mission Software  
+Systems Architecture  
+Technical Leadership  
+
+---
+
+## RULE
+
+Build real systems.  
+Not shallow projects.
