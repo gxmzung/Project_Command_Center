@@ -1,0 +1,57 @@
+name: Sync Issue Fields to Project Command Center
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to sync"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  sync-project-fields:
+    name: Sync issue form values into GitHub Project fields
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Resolve issue context
+        env:
+          GH_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          REPO: ${{ github.repository }}
+          EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
+          INPUT_ISSUE_NUMBER: ${{ inputs.issue_number }}
+        run: |
+          set -euo pipefail
+
+          ISSUE_NUMBER="${EVENT_ISSUE_NUMBER:-${INPUT_ISSUE_NUMBER:-}}"
+
+          if [ -z "$ISSUE_NUMBER" ]; then
+            echo "Issue number not found."
+            exit 1
+          fi
+
+          echo "Syncing issue #$ISSUE_NUMBER"
+
+          gh issue view "$ISSUE_NUMBER" \
+            --repo "$REPO" \
+            --json number,title,body,url \
+            > /tmp/project_command_center_issue.json
+
+          cat /tmp/project_command_center_issue.json
+
+      - name: Sync project fields
+        env:
+          GH_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 scripts/sync_project_fields.py \
+            --issue-json /tmp/project_command_center_issue.json
