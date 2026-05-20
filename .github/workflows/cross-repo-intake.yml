@@ -1,0 +1,50 @@
+name: Cross-Repo Issue Intake
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max issues per repository"
+        required: false
+        default: "50"
+        type: string
+      dry_run:
+        description: "Run without editing Project fields"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "17 0 * * *"
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  cross-repo-intake:
+    name: Pull open issues into Project Command Center
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run cross-repo intake
+        env:
+          GH_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
+        run: |
+          set -euo pipefail
+
+          LIMIT="${{ inputs.limit || '50' }}"
+          DRY_RUN="${{ inputs.dry_run || 'false' }}"
+
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 scripts/intake_cross_repo_issues.py \
+              --config .github/project-command-center/repo-intake.json \
+              --limit "$LIMIT" \
+              --dry-run
+          else
+            python3 scripts/intake_cross_repo_issues.py \
+              --config .github/project-command-center/repo-intake.json \
+              --limit "$LIMIT"
+          fi

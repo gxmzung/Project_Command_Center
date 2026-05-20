@@ -1,0 +1,69 @@
+{
+  "owner": "gxmzung",
+  "project_number": 5,
+  "repos": [
+    {
+      "repo": "gxmzung/Project_Command_Center",
+      "project": "Project_Command_Center",
+      "sub_project": "Central Ops",
+      "default_role": "DevOps / GitHub Ops",
+      "skill_track": "GitHub Projects, GitHub Actions, Issue Ops"
+    },
+    {
+      "repo": "gxmzung/citybrain-v8-jarvis",
+      "project": "CityBrain",
+      "sub_project": "Campus Dining Platform",
+      "default_role": "Backend",
+      "skill_track": "FastAPI, Android, SQLite, Admin Dashboard"
+    },
+    {
+      "repo": "gxmzung/BioDockLab",
+      "project": "BioDockLab",
+      "sub_project": "Bio Research Platform",
+      "default_role": "Research / Documentation",
+      "skill_track": "Bio Data, Role-based UX, Research Workflow"
+    },
+    {
+      "repo": "Paichai-SkyEdge/vtol-vision",
+      "project": "SkyEdge",
+      "sub_project": "VTOL Vision",
+      "default_role": "Data",
+      "skill_track": "Computer Vision, UAV, ROS2"
+    },
+    {
+      "repo": "Paichai-SkyEdge/SkyEdge",
+      "project": "SkyEdge",
+      "sub_project": "SkyEdge Master",
+      "default_role": "PM",
+      "skill_track": "UAV Ops, Team Management, Flight System"
+    },
+    {
+      "repo": "Paichai-SkyEdge/skyedge-vtol-ws",
+      "project": "SkyEdge",
+      "sub_project": "ROS2 PX4 Workspace",
+      "default_role": "DevOps / GitHub Ops",
+      "skill_track": "ROS2, PX4, Docker, SITL"
+    },
+    {
+      "repo": "gxmzung/fieldops-embedded-diagnostic-suite",
+      "project": "FieldOps",
+      "sub_project": "Embedded Diagnostics",
+      "default_role": "Hardware / Embedded",
+      "skill_track": "UART, UDP, Fault Analysis, Embedded Logs"
+    },
+    {
+      "repo": "gxmzung/satellite-ground-control-system",
+      "project": "Satellite GCS",
+      "sub_project": "Mission Control System",
+      "default_role": "Backend",
+      "skill_track": "Telemetry, UDP, Mission Server, Operator Console"
+    },
+    {
+      "repo": "gxmzung/mission-edge-tech-lab",
+      "project": "Other",
+      "sub_project": "Mission Edge Experiments",
+      "default_role": "Research / Documentation",
+      "skill_track": "AI, Comms, UAV, Edge, Mission Software"
+    }
+  ]
+}
